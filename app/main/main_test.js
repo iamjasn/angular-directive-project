@@ -1,10 +1,10 @@
 'use strict';
 
-describe('myApp.view module', function() {
+describe('myApp.main module', function() {
   var compile, scope, dirEl, input, model;
 
   beforeEach(function() {
-    module('myApp.view');
+    module('myApp.main');
     inject(function($compile, $rootScope){
       compile = $compile;
       scope = $rootScope.$new();

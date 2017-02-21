@@ -2,10 +2,10 @@
 
 angular.module('myApp', [
   'ngRoute',
-  'myApp.view',
+  'myApp.main',
 ])
 .config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
 
-  $routeProvider.otherwise({redirectTo: '/view'});
+  $routeProvider.otherwise({redirectTo: '/main'});
 }]);

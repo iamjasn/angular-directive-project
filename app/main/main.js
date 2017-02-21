@@ -1,15 +1,15 @@
 'use strict';
 
-angular.module('myApp.view', ['ngRoute'])
+angular.module('myApp.main', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/view', {
-    templateUrl: 'view/view.html',
-    controller: 'ViewCtrl'
+  $routeProvider.when('/main', {
+    templateUrl: 'main/main.html',
+    controller: 'MainCtrl'
   });
 }])
 
-.controller('ViewCtrl', [function() {
+.controller('MainCtrl', [function() {
   this.title = 'Formstack Front End Developer Applicant Assignment';
 }])
 
