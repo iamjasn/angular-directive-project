@@ -1,0 +1,13 @@
+body {
+  line-height: 3;
+  margin: 1%;
+}
+
+label {
+  margin-right: 1rem;
+}
+
+input {
+  padding: 0.25rem;
+  width: 5rem;
+}

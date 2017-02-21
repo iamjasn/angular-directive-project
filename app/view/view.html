@@ -1,0 +1,18 @@
+<div ng-controller="ViewCtrl as ctrl">
+  {{ ctrl.title }}
+  <form name="mainForm" role="form" novalidate>
+    <label for="float">Enter a number between 0 and 1:</label>
+    <input
+      type="number"
+      name="float"
+      ng-model="percentage"
+      percentage-convert
+    >
+    <p ng-show="mainForm.float.$error.number">
+      Invalid input
+    </p>
+    <p ng-hide="mainForm.float.$pristine || mainForm.float.$error.number">
+      {{ percentage | number }}%
+    </p>
+  </form>
+</div>
