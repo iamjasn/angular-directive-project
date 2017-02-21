@@ -3,7 +3,7 @@ Based off `angular-seed`.
 ### Getting Started
 1. Run `npm install` to install all dependencies
 2. `npm start`
-3. Browse to the app at [`localhost:8000/index.html`][local-app-url].
+3. Browse to the app at [`localhost:8000/index.html`](local-app-url).
 
 ### Running Unit Tests
 
