@@ -11,3 +11,15 @@ input {
   padding: 0.25rem;
   width: 5rem;
 }
+
+input.ng-not-empty.ng-invalid {
+  border: 1px solid red;
+}
+
+input.ng-valid.ng-not-empty {
+  border: 1px solid greenyellow;
+}
+
+.ng-empty ~ p {
+  visibility: hidden;
+}
