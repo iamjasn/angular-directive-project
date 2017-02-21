@@ -7,5 +7,5 @@ Based off `angular-seed`.
 
 ### Running Unit Tests
 
-Run `npm test` to run unit tests with Karma. The configuration uses Chrome.
+Run `npm test` to run unit tests with Karma.
 To do a single run of tests and exit, run `npm run test-single-run`.
